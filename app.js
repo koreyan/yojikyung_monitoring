@@ -48,7 +48,7 @@ const CONFIG = {
         ]}
     ],
     MAX_HISTORY: 50,
-    WS_URL: "ws://localhost:9000"
+    WS_URL: `${window.location.protocol === 'https:' ? 'wss:' : 'ws:'}//${window.location.host}`
 };
 
 // =============================================================================

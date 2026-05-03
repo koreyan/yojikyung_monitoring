@@ -1,6 +1,14 @@
 {
+  "name": "yojikyung-monitoring",
+  "version": "1.0.0",
+  "description": "Real-time data processing system monitoring",
+  "main": "bridge.js",
+  "scripts": {
+    "start": "node bridge.js"
+  },
   "dependencies": {
     "dotenv": "^17.4.2",
+    "express": "^4.18.2",
     "ws": "^8.20.0"
   }
 }
